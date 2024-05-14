@@ -1,10 +1,11 @@
 body {
     font-family: Blippo, fantasy;
+    Color: blue
   }
   
   #fila {
-    list-style: url('/media/examples/rocket.svg');
-    padding: 0;
+    list-style: list-number;
+    padding: 5;
   }
   
   #fila li {
