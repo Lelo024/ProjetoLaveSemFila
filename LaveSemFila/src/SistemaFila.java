@@ -39,6 +39,9 @@ public class SistemaFila {
                         for (String n : fila) {
                             System.out.println(n);
                         }
+                        int tempoTotal = fila.size() * 45;
+                        // Imprime o resultado
+                        System.out.println("Tempo para seu atendimento: " + tempoTotal + " minutos");
                     }
                     break;
 
@@ -50,6 +53,7 @@ public class SistemaFila {
                         // Remove e mostra o primeiro nome da fila
                         String proximoNome = fila.poll();
                         System.out.println(proximoNome + " é o próximo da fila.");
+                        
                     }
                     // Mostra todos os nomes na fila
                     if (fila.isEmpty()) {
